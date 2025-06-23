@@ -11,8 +11,7 @@ Here is a simple example of how the Bom and Position file they looks when you us
 
 ![image](https://github.com/user-attachments/assets/8ca89909-624d-4833-b142-abaea27d5c80)
 
-![image](https://github.com/user-attachments/assets/9c328680-bd8b-4841-a85f-27fd0881b88f)
-
+![image](https://github.com/user-attachments/assets/0034acd7-e4e4-4db4-bfa9-b214970de433)
 
 # The Solution
 There are many complex approaces to try to solve the problem working on how Kicad associate part footprint, but since they were quite complex I decided to solve the problem by a simple file post processign, done (obviously) with python. This generarted a script that does the following:
@@ -25,6 +24,12 @@ B. Adaptation of the POSITION file
 B1. The script looks for the MODULE1 entry inside the file
 B2. It duplictes the entry as for the BOM file
 B3. It adapts the coordinates of the new entry
+
+Here are the result after running the script in the files of the example above:
+
+![image](https://github.com/user-attachments/assets/c3261b6e-e880-4809-9437-6aca28c6e5dc)
+
+![image](https://github.com/user-attachments/assets/272ead05-de9c-4989-bc5b-c61bfc0095e5)
 
 # How to use it
 For JLCPCB Kicad fabbrication script output, simply put the script in a folder inside your project and run it. Have fun!
