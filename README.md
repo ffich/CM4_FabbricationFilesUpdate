@@ -13,7 +13,7 @@ Here is a simple example of how the Bom and Position file they looks like when y
 ![image](https://github.com/user-attachments/assets/0034acd7-e4e4-4db4-bfa9-b214970de433)
 
 # The Solution
-There are many complex approaces to try to solve the problem working on how Kicad associate part footprints, but since they were quite complex I decided to solve the problem with a simple file post processing approach imnstead. To do this I (obviously) decided to go with python. This generarted a script that does the following:
+There are many complex approaces to try to solve the problem working on how Kicad associate part footprints, but since they were quite complex I decided to solve the problem with a simple file post processing approach instead. To do this I (obviously) decided to go with python. This generarted a script that does the following:
 
 ## A. Adaptation of the BOM file
 - A1. The script looks for the MODULE1 entry inside the file
